@@ -1,10 +1,10 @@
 # <p align="center" > تنصيب سورس طوكيو
 # <p align="center" > ┉┉┉┉ TK ┉┉┉┉ 
 # <p align="center" > ⤓ ⏎ كود التنصيب الاول مع المكاتب ➽ ⤓
-# <p align="center" > `git clone https://github.com/MFMVIP/Tokyo1.git;cd Tokyo;chmod +x Tokyo.sh;./Tokyo.sh install`
+# <p align="center" > `git clone https://github.com/mfmvip/Tokyo1.git;cd Tokyo;chmod +x Tokyo.sh;./Tokyo.sh install`
 # <p align="center" > ┉┉┉┉ TK ┉┉┉┉ 
 # <p align="center" > ⤓ ⏎ كود التنصيب السريع من دون مكاتب ➽ ⤓
-# <p align="center" > `git clone https://github.com/MFMVIP/Tokyo1.git;cd Tokyo;chmod +x Tokyo.sh;./Tokyo.sh`
+# <p align="center" > `git clone https://github.com/mfmvip/Tokyo1.git;cd Tokyo;chmod +x Tokyo.sh;./Tokyo.sh`
 # <p align="center" > ┉┉┉┉ TK ┉┉┉┉ 
 # <p align="center" > قم بنسخ احدى اكواد التنصيب
 # <p align="center" > والصقه في الترمنال واضغط انتر
