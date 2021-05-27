@@ -3,8 +3,8 @@ THIS_DIR=$(cd $(dirname $0); pwd)
 Version=`lsb_release -rs | cut -f1 -d"."`
 install() {
 echo -e "\033[0;36m"
-echo -e "~ Welcome To Source Tokyo - اهلا بك في سورس طوكيو ~"
-echo -e "     ~ { Setting Up Offices - جاري رفع المكاتب } ~"
+echo -e "~ Welcome To Source TOKYO - اهلا بك في سورس طوكيو ~"
+echo -e "  ~ { Setting Up Offices - جاري رفع المكاتب } ~"
 echo -e "\033[0m"
 sudo apt-get update -y
 sudo apt-get upgrade -y
@@ -43,14 +43,20 @@ sudo luarocks install luautf8
 cd .. ;sudo rm -rf luarocks*
 sudo timedatectl set-timezone Asia/Baghdad
 echo -e "\033[0;36m"
-echo -e "---------------------------------------------"
-echo -e "|This Source Was Developed By (MFM) @MFMVIP.|"
-echo -e "|  This Is The Source Channel @TOKYO_TEAM . |"
-echo -e "|               - Tokyo -                   |"
-echo -e "---------------------------------------------"
+echo -e " -------------------------------------------------------"
+echo -e "|                  مرحبا بكم في سورس طوكيو             |"   
+echo -e "|                 المطورين : @MFMVIP - @JZZZZ           |"
+echo -e "|                                                       |"
+echo -e "|                                                       |"
+echo -e "|                      𝘚𝘖𝘜𝘙𝘊𝘌 𝘛𝘖𝘒𝘠𝘖                    |"
+echo -e "|                                                       |"
+echo -e "|                                                       |"
+echo -e "|                                                       |"
+echo -e "|                                                       |"
+echo -e " -------------------------------------------------------"
 echo -e "\033[0m"
 cd $THIS_DIR && sudo chmod +x tg
-lua Tokyo.lua
+lua TOKYO.lua
 }
 if [ "$1" = "install" ]; then
 install
@@ -60,5 +66,5 @@ echo -e "\033[0;31m\n~ The tg File Was Not Found In The Bot Files\n\033[0;33m"
 exit 1
 fi
 cd $THIS_DIR && sudo chmod +x tg
-lua Tokyo.lua
+lua TOKYO.lua
 fi
